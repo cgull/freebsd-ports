@@ -1,7 +1,7 @@
 # Created by: John Hood <cgull@glup.org>
 
 PORTNAME=	tlsh
-DISTVERSION=	4.9.3
+DISTVERSION=	4.10.0
 CATEGORIES=	devel
 
 MAINTAINER=	cgull@glup.org
@@ -14,6 +14,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 USES=		cmake
 USE_GITHUB=	yes
 GH_ACCOUNT=	trendmicro
+GH_TAGNAME=	806d887a # 4.10.0
 USE_LDCONFIG=	yes
 
 CMAKE_ARGS=	create_symlink \
